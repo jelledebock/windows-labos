@@ -1,0 +1,5 @@
+use Win32::OLE;
+
+$cdo = Win32::OLE->new("Excel.Sheet.12");
+
+print $cdo->{Version}."\n";

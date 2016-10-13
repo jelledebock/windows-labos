@@ -1,0 +1,10 @@
+************
+***Nota's***
+************
+
+Excel bestand manipuleren.
+----------------------------
+Beste manier: inhoud van Excelbestand in Perl strucuur krijgen, en op z'n Perls data manipuleren, terugplaatsen in structuur en terug naar Excel exporteren (dit om het aantal interacties met Excel objecten te reduceren).
+
+Excel gedeelte zit samen met WMI op de test.
+
