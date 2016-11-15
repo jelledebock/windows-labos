@@ -1,0 +1,2 @@
+﻿ $objects = Get-WmiObject -Query "select * from meta_class"
+ $objects | select __CLASS , @{Label="Aantal attributen";Expression={$_.Properties.Count}}| sort -Property "Aantal attributen" -Descending | select -First 1;
